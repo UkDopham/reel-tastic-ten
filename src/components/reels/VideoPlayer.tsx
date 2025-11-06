@@ -44,7 +44,6 @@ export const VideoPlayer = ({ reel, isActive, onTogglePlay }: VideoPlayerProps) 
         className="w-full h-full object-cover"
         loop
         playsInline
-        muted
       />
       
       {!isPlaying && (
