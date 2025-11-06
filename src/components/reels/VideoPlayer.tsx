@@ -15,6 +15,8 @@ export const VideoPlayer = ({ reel, isActive, onTogglePlay }: VideoPlayerProps) 
     const video = videoRef.current;
     if (!video) return;
 
+    video.volume = 0.3;
+
     if (isActive) {
       video.play().then(() => setIsPlaying(true)).catch(() => setIsPlaying(false));
     } else {
