@@ -5,6 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // IMPORTANT pour GitHub Pages
+  // ton repo s'appelle reel-tastic-ten
+  base: "/reel-tastic-ten/",
+
   server: {
     host: "::",
     port: 8080,
