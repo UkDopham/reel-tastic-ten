@@ -125,4 +125,15 @@ export const mockReels: Reel[] = [
     comments: 2345,
     isLiked: true,
   },
+  {
+    id: "11",
+    videoUrl: `${BASE}videos/tisme.mp4`,
+    username: "dudutisme",
+    avatarUrl: `${BASE}images/2.jpeg`,
+    caption: "Dudu le tismé",
+    music: "Original Audio - dudutisme",
+    likes: 9222,
+    comments: 122,
+    isLiked: true,
+  },
 ];
